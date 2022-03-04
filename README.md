@@ -1,6 +1,8 @@
 # The Reuse Wiki
 **By Krisha and Saanvi - Neev Academy**
+
 *Stonehill Hackathon*
+
 
 **Parts of our Website**
 - Info on materials - how to recycle, chracteristics (This is so people can effectively use, buy and recycle materials)
