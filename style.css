@@ -24,9 +24,9 @@ html {
    }
    .text1{
     font-family: 'Merriweather', serif;
-    margin-left: -150;
-    text-align: justify;
-    width: 350px;
+    display: inline-block;
+    text-align: left;
+    width: 450;
    }   
    .text{
     font-family: 'Merriweather', serif; 
@@ -43,7 +43,7 @@ html {
 .heading{
   margin-top: -20;
 }
-}.progress {
+.progress {
   height: 7px;
   margin-bottom: 0;
   overflow: hidden;
@@ -73,14 +73,6 @@ html {
   border-radius: 20px;
 }
 
-   
- 
-   .row::after {
-     content: "";
-     clear: both;
-     display: table;
-   }
-   
    .serviceDiv
    {
      float: left;
@@ -125,6 +117,7 @@ html {
 .SDG {
   width: 250px;
   border-radius: 25px;
+  margin-left: 10px;
   transition: transform .2s;
 }
 
@@ -132,6 +125,3 @@ html {
   transform:scale(0.8);
 }
 
-#abt {
-  float: center;
-}
