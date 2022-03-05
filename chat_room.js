@@ -5,7 +5,13 @@ function addUser() {
       localStorage.setItem("user_name", user_name);
     }
 
-
+function logout(){
+      console.log("Logged out")
+      localStorage.removeItem("user_name");
+      localStorage.removeItem("room_name");
+      window.location="index.html";
+      getElementById("user_name").value=""
+}
    
 var firebaseConfig = {
       apiKey: "AIzaSyBN4MiSNhu-rRR7qV0YwM1PZITdAQ0cYY0",
